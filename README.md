@@ -40,7 +40,7 @@ All contributions are welcome! Read our [Contribution Guidelines](https://github
 
 You can install the developer version of apm {{package}} using [abapGit](https://github.com/abapGit/abapGit) by creating a new online repository for `https://github.com/abapPM/{{repo}}`.
 
-Recommended SAP package: `${{package}}`
+Recommended SAP package: `{{package}}`
 
 ## About
 
@@ -48,4 +48,4 @@ Made with ❤ in Canada
 
 Copyright {{year}} apm.to Inc. <https://apm.to>
 
-Follow [@marcf.be](https://bsky.app/profile/marcf.be) on Blueksy and [@marcfbe](https://linkedin.com/in/marcfbe) or LinkedIn
+Follow [@marcf.be](https://bsky.app/profile/marcf.be) on Bluesky and [@marcfbe](https://linkedin.com/in/marcfbe) or LinkedIn
