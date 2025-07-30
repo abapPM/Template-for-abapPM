@@ -2,7 +2,7 @@
   <img width="100" height="40" alt="apm logo banner" src="https://github.com/abapPM/abapPM/blob/main/img/apm_banner.png?raw=true&ver=1.0.0">
 </picture>
 
-![Version](https://img.shields.io/endpoint?url=https://shield.abappm.com/github/abapPM/{{repo}}/src/zif_{{module}}.intf.abap/c_version&label=Version&color=blue)
+![Version](https://img.shields.io/endpoint?url=https://shield.abappm.com/github/abapPM/{{repo}}/src/%2523apmg%2523if_{{module}}.intf.abap/c_version&label=Version&color=blue)
 
 [![License](https://img.shields.io/github/license/abapPM/{{repo}}?label=License&color=success)](https://github.com/abapPM/{{repo}}/blob/main/LICENSE)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?color=success)](https://github.com/abapPM/.github/blob/main/CODE_OF_CONDUCT.md)
@@ -20,7 +20,7 @@ NO WARRANTIES, [MIT License](https://github.com/abapPM/{{repo}}/blob/main/LICENS
 
 ## Usage
 
-...
+Not documented yet
 
 ## Prerequisites
 
@@ -40,7 +40,7 @@ All contributions are welcome! Read our [Contribution Guidelines](https://github
 
 You can install the developer version of apm {{package}} using [abapGit](https://github.com/abapGit/abapGit) by creating a new online repository for `https://github.com/abapPM/{{repo}}`.
 
-Recommended SAP package: `{{package}}`
+Recommended SAP package: `/APMG/{{package}}`
 
 ## About
 
