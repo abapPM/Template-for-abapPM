@@ -10,7 +10,7 @@
   ],
   "homepage": "https://abappm.com",
   "bugs": {
-    "url": "https://github.com/abapPM/{{repo}}"
+    "url": "https://github.com/abapPM/{{repo}}/issues"
   },
   "license": "MIT",
   "author": {
