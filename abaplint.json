@@ -8,7 +8,7 @@
     {
       "files": "/src/**/*.*",
       "folder": "/deps2",
-      "url": "https://github.com/abapPM/ABAP-Error"
+      "url": "https://github.com/abapPM/ABAP-Exceptions"
     }
   ],
   "global": {
@@ -28,6 +28,7 @@
     "7bit_ascii": true,
     "abapdoc": false,
     "add_test_attributes": true,
+    "aff_and_xml": true,
     "align_parameters": false,
     "align_pseudo_comments": true,
     "align_type_expressions": true,
@@ -46,8 +47,12 @@
     "begin_end_names": true,
     "begin_single_include": true,
     "call_transaction_authority_check": true,
+    "catch_and_raise": true,
+    "cds_association_name": true,
     "cds_comment_style": true,
+    "cds_field_order": true,
     "cds_legacy_view": true,
+    "cds_naming": true,
     "cds_parser_error": true,
     "chain_mainly_declarations": true,
     "change_if_to_case": true,
@@ -63,6 +68,7 @@
     "check_transformation_exists": true,
     "class_attribute_names": false,
     "classic_exceptions_overlap": true,
+    "clear_exporting_parameters": true,
     "cloud_types": true,
     "colon_missing_space": true,
     "commented_code": true,
@@ -94,11 +100,13 @@
     "forbidden_void_type": {
       "check": [
         "^STRINGTAB$",
-        "^CHAR[0-9]+$",
+        "^CHAR\d+$",
         "^INT4$",
         "^RS_C_TRUE$",
         "^RS_C_FALSE$",
         "^FLAG$",
+        "^NUMC\d+$",
+        "^SYCHAR\d+$",
         "^SYDATUM$",
         "^SYINDEX$",
         "^SYTABIX$",
@@ -106,6 +114,7 @@
       ]
     },
     "form_tables_obsolete": true,
+    "fm_global_parameters_obsolete": true,
     "fully_type_constants": true,
     "fully_type_itabs": true,
     "function_module_recommendations": true,
@@ -127,6 +136,7 @@
       "ignoreGlobalClassDefinition": false,
       "ignoreGlobalInterface": false
     },
+    "index_completely_contained": true,
     "inline_data_old_versions": true,
     "intf_referencing_clas": true,
     "invalid_table_index": true,
@@ -161,6 +171,8 @@
     "no_chained_assignment": true,
     "no_external_form_calls": true,
     "no_inline_in_optional_branches": false,
+    "no_macros": true,
+    "no_mandt_in_database_operations": true,
     "no_prefixes": {
       "data": "^[LGM].?_",
       "statics": "^S.?_",
@@ -218,6 +230,7 @@
     "omit_preceding_zeros": true,
     "omit_receiving": true,
     "parser_702_chaining": true,
+    "parser_bad_exceptions": true,
     "parser_error": true,
     "parser_missing_space": true,
     "pragma_style": true,
@@ -232,6 +245,7 @@
     "prefix_is_current_class": true,
     "reduce_procedural_code": true,
     "reduce_string_templates": true,
+    "redundant_conversion": true,
     "release_idoc": true,
     "remove_descriptions": true,
     "rfc_error_handling": true,
@@ -239,6 +253,7 @@
     "select_performance": true,
     "select_single_full_key": true,
     "selection_screen_naming": true,
+    "selection_screen_texts_missing": true,
     "sequential_blank": true,
     "short_case": true,
     "sicf_consistency": true,
@@ -254,6 +269,7 @@
     "superclass_final": true,
     "superfluous_value": true,
     "sy_modification": true,
+    "sy_read_restriction": true,
     "tabl_enhancement_category": true,
     "tables_declared_locally": true,
     "try_without_catch": true,
@@ -277,10 +293,11 @@
     "use_new": true,
     "when_others_last": true,
     "whitespace_end": true,
+    "xml_bom": true,
     "xml_consistency": true
   },
   "syntax": {
-    "errorNamespace": "^(/APMG/|LCL_|TY_|LIF_)",
+    "errorNamespace": "^(/APMG/|LCL_|TY_|LIF_|LTCL_)",
     "globalConstants": [],
     "globalMacros": [],
     "version": "v750"
